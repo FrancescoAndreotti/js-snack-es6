@@ -16,12 +16,11 @@ stampaAVideo();
 
 
 function lightBike() {
-    for (let i = 0; i < listaBici.length; i++) {
+    for (let i = 1; i < listaBici.length; i++) {
         if (biciLeggera.peso > listaBici[i].peso) {
             biciLeggera = listaBici[i];
         }
     }
-    console.log(biciLeggera);
 }
 
 
